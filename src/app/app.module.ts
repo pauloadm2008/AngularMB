@@ -13,7 +13,8 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
-import { HttpClientModule } from "@angular/common/http"
+import { HttpClientModule } from "@angular/common/http";
+import { ItemDetailComponent } from './components/item-detail/item-detail.component'
 
 
 
@@ -30,6 +31,7 @@ import { HttpClientModule } from "@angular/common/http"
     ListRenderComponent,
     PipesComponent,
     TwoWayBindingComponent,
+    ItemDetailComponent,
   ],
   imports: [
     BrowserModule,
