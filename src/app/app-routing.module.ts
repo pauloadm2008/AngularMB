@@ -8,7 +8,7 @@ import { ItemDetailComponent } from './components/item-detail/item-detail.compon
 const routes: Routes = [
 { path: '', component: PrimeiroComponenteComponent },
 { path: 'list', component: ListRenderComponent },
-{ path: 'list/:id', component: ItemDetailComponent}
+{ path: 'list/:id', component: ItemDetailComponent }
 ];
 
 @NgModule({

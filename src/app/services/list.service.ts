@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ListService {
-  private apiUrl = 'http://localhost:3000/animals'
+  private apiUrl = 'https://api.github.com/users/pauloadm2008/repos'
 
   constructor(private http: HttpClient) { }
 
